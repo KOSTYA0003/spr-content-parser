@@ -29,14 +29,20 @@ A PHP-based script for automated data extraction from the spr.ru portal. It supp
 
 This project is a CLI tool. Running via terminal ensures stable operation without the time limits (timeouts) found in browsers.
 
-1. **Install dependencies** (DiDom library, etc.):
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com
+   cd spr-content-parser
+   ```
+
+2. **Install dependencies** (DiDom library, etc.):
    ```bash
    composer install
    ```
-   
-2. **Configure database connection** in the `index.php` file (configuration section).
 
-3. **Run the parser**:
+3. **Configure database connection** in the `index.php` file (configuration section).
+
+4. **Run the parser**:
    ```bash
    php index.php
    ```
