@@ -43,19 +43,15 @@ This project is a CLI tool. Running via terminal ensures stable operation withou
    
 ## 📂 What the parser collects
 
-    - Company names, addresses, and phones
-
-    - Number of reviews (positive/negative)
-
-    - Category hierarchy (L1 → L2 → L3)
-
-    - Phone images: Saved to the `company_images` folder, organized into nested category folders like L1/L2/L3/Company_Name_ID/
+- Company names, addresses, and phones
+- Number of reviews (positive/negative)
+- Category hierarchy (L1 → L2 → L3)
+- Phone images: Saved to the `company_images` folder, organized into nested category folders like L1/L2/L3/Company_Name_ID/
 
 ## 🔧 Technical details
 
-    - Category structure: The parser recursively traverses all available L1, L2, and expanded L3 categories.
-
-    - Selectors: Adapted to the current DOM structure of the site.
+- Category structure: The parser recursively traverses all available L1, L2, and expanded L3 categories.
+- Selectors: Adapted to the current DOM structure of the site.
 
 ### 📂 Structured data storage
 
